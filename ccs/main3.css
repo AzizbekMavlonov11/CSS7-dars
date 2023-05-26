@@ -1,0 +1,226 @@
+body{
+    background-color: black;
+}
+.wrap{
+    width: 1200px;
+    height: 100px;
+    text-align: center;
+}
+.menu{
+    width: 900px;
+    height: 700px;
+    margin: 20px;
+    padding-top: 170px;
+    padding-left: 300px;
+    display: flex;
+    transition: 1s ease-in-out;
+}
+.menu-item{
+    width: 100px;
+    height: 200px;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid;
+    margin: 0 3px;
+    margin-top: 110px;
+    position: relative;
+    animation-name: menu;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+.menu-item2{
+    width: 100px;
+    height: 320px;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid;
+    margin: 0 3px;
+    margin-top: 40px;
+    position: relative;
+    animation-name: menu;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+
+}
+.menu-item3{
+    width: 100px;
+    height: 400px;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid;
+    margin: 0 3px;
+    position: relative;
+    animation-name: menu;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+.menu-item4{
+    width: 100px;
+    height: 330px;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid;
+    margin: 0 3px;
+    margin-top: 38px;
+    position: relative;
+    animation-name: menu;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+.menu-item5{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid;
+    margin: 0 3px;
+    margin-top: 130px;
+    position: relative;
+    animation-name: menu;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+.menu-item:nth-child(2){
+    animation-delay: 2s;
+}
+.menu-item:nth-child(3){
+    animation-delay: 3s;
+}
+.menu-item:nth-child(4){
+    animation-delay: 4s;
+}
+.menu-item:nth-child(5){
+    animation-delay: 5s;
+}
+.menu-box{
+    width: 70px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50px;
+    position: absolute;
+    top: 150px;
+    left: 10px;
+}
+.menu-box2{
+    width: 70px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50px;
+    position: absolute;
+    top: 270px;
+    left: 10px;
+}
+.menu-box3{
+    width: 70px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50px;
+    position: absolute;
+    top: 350px;
+    left: 10px;
+}
+.menu-box4{
+    width: 70px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50px;
+    position: absolute;
+    top: 270px;
+    left: 10px;
+}
+.menu-box5{
+    width: 85px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    border-bottom-left-radius: 50px;
+}
+.menu-drop1{
+    width: 70px;
+    height:10px ;
+    background-color: blue;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+.menu-drop2{
+    width: 70px;
+    height:10px ;
+    background-color: blue;
+    position: absolute;
+    top: 35px;
+    left: 10px;
+}
+.menu-drop3{
+    width: 70px;
+    height:10px ;
+    background-color: blue;
+    position: absolute;
+    top: 35px;
+    left: 10px;
+}
+.menu-drop4{
+    width: 70px;
+    height:10px ;
+    background-color: blue;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+.menu-drop5{
+    width: 70px;
+    height:10px ;
+    background-color: blue;
+    position: absolute;
+    top: 35px;
+    left: 10px;
+}
+.menu-drop6{
+    width: 70px;
+    height:10px ;
+    background-color: blue;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+.menu-drop7{
+    width: 70px;
+    height:10px ;
+    background-color: blue;
+    position: absolute;
+    top: 35px;
+    left: 10px;
+}
+.menu-drop8{
+    width: 70px;
+    height:10px ;
+    background-color: blue;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+.menu-drop9{
+    width: 70px;
+    height:10px ;
+    background-color: blue;
+    position: absolute;
+    top: 35px;
+    left: 10px;
+}
+
+@keyframes menu {
+    0%{
+        transform: translate(0,200px);
+    }
+    20%{
+        transform: translate(0,200px);
+    }
+}
+
